@@ -1,0 +1,24 @@
+{
+  "name": "sequelize-tut",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "make-model": "npx sequelize-cli model:generate --name user --attributes email:string",
+    "migrate": "npx sequelize-cli db:migrate",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "make-seed": "npx sequelize-cli seed:generate --name demo-user",
+    "run-seed": "npx sequelize-cli db:seed:all"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.27.0"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.5.2"
+  }
+}

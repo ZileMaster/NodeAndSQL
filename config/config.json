@@ -1,0 +1,23 @@
+{
+    "development": {
+      "username": "postgres",
+      "password": "Sifra123",
+      "database": "sequelize-tut",
+      "host": "127.0.0.1",
+      "dialect": "postgres"
+    },
+    "test": {
+      "username": "desktop-url5d05\\korisnik",
+      "password": "Sifra123",
+      "database": "sequelize_tut",
+      "host": "127.0.0.1",
+      "dialect": "postgres"
+    },
+    "production": {
+      "username": "desktop-url5d05\\korisnik",
+      "password": "Sifra123",
+      "database": "sequelize_tut",
+      "host": "127.0.0.1",
+      "dialect": "postgres"
+    }
+  }
